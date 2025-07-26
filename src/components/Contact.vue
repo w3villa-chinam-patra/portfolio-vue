@@ -32,13 +32,6 @@ const submitForm = async () => {
   alert('Thank you for your message! I\'ll get back to you soon.')
 }
 
-const socialLinks = [
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/chinam-dibyadyuti-patra', icon: '💼' },
-  { name: 'GitHub', url: 'https://github.com/chinam-patra', icon: '🐱' },
-  { name: 'Twitter', url: 'https://twitter.com/chinam_patra', icon: '🐦' },
-  { name: 'Email', url: 'mailto:chinam.patra@example.com', icon: '📧' }
-]
-
 onMounted(() => {
   const tl = gsap.timeline({
     scrollTrigger: {

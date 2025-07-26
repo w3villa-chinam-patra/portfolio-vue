@@ -103,49 +103,6 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    
-    <!-- Project Modal -->
-    <div v-if="selectedProject" class="project-modal">
-      <div class="modal-content" @click.stop>
-        <button class="close-btn">&times;</button>
-        
-        <div class="modal-header">
-          <img :src="selectedProject.image" :alt="selectedProject.title" />
-          <div class="modal-title-section">
-            <h2>{{ selectedProject.title }}</h2>
-            <div class="project-status" :class="selectedProject.status.toLowerCase().replace(' ', '-')">
-              {{ selectedProject.status }}
-            </div>
-          </div>
-        </div>
-        
-        <div class="modal-body">
-          <p class="modal-description">{{ selectedProject.description }}</p>
-          
-          <div class="modal-section">
-            <h4>Key Features</h4>
-            <ul class="features-list">
-              <li v-for="feature in selectedProject.features" :key="feature">
-                {{ feature }}
-              </li>
-            </ul>
-          </div>
-          
-          <div class="modal-section">
-            <h4>Technologies Used</h4>
-            <div class="modal-tech-tags">
-              <span 
-                v-for="tech in selectedProject.technologies" 
-                :key="tech"
-                class="tech-tag"
-              >
-                {{ tech }}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 </template>
 
