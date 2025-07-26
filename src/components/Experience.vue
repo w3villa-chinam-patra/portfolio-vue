@@ -14,7 +14,6 @@ const experiences = [
     description: 'Working as a full-stack developer in a dynamic team environment, contributing to multiple client projects and internal tools. Responsible for both frontend and backend development, database design, and API integration. Gained experience in agile development methodologies and collaborative coding practices.',
     technologies: ['JavaScript', 'TypeScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'MySQL', 'Nest.js'],
     achievements: [
-      'Successfully delivered 5+ client projects using React.js and Node.js stack',
       'Implemented RESTful APIs and database schemas for e-commerce applications',
       'Collaborated with senior developers on code reviews and best practices',
       'Contributed to frontend optimization resulting in improved user experience',
