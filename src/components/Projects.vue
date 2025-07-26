@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted} from 'vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -37,8 +37,6 @@ const projects = [
     status: 'Completed'
   },
 ]
-
-const selectedProject = ref(null)
 
 
 onMounted(() => {
